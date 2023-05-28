@@ -1,0 +1,12 @@
+jaffle_shop:
+ target: dev
+ outputs:
+  dev:
+   type: postgres
+   threads: 4
+   host: demodb.hevo.me
+   user: root
+   password: rootROOT
+   port: 5432
+   schema: public_jaffle_shop
+   dbname: braavos
